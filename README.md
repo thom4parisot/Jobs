@@ -2,22 +2,22 @@
 
 ## The Company
 
-"Dijiwan SAS":http://dijiwan.com is a **digital agency** of **brands strategies**.
+[Dijiwan SAS](http://dijiwan.com) is a **digital agency** of **brands strategies**.
 
 We help *companies*, *brands* and *public organizations* to better **understand their market**, **who** is talking about them, and **how**, through Web medias (websites, social networks, advertising, SEO etc.).
 
-Therefore, we deliver analysis, recommendations and insights through both **high quality maps** and **strategies**.
+Therefore, **we deliver analysis, recommendations and insights** through both **high quality maps** and **strategies**.
 
 ## The Project
 
-The mission of the techy guys is to build ergonomic tools, bridges and semantic data stores.
-The fun part is that we can help improving all the process, and even bring new commercial aspects!
+The mission of the techy guys is to build *ergonomic tools*, *bridges* (aka *webservices*) and *semantic data stores*.
+The fun part is that we can **help improving all the processes**, and even **bring new commercial features**!
 
 ## Job profiles
 
 Some job profiles are listed below.
 
-Applying is simple: create a pull request showing who you are, what have you done and what you are expecting.
+Applying is simple: **create a pull request** showing who you are, what have you **done** and what you are **expecting**.
 You can either push a resume, some code and even submodules to link your link towards your public projects.
 Ask your questions at the same time, or create an issue… it's up to you.
 
