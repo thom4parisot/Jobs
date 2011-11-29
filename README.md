@@ -30,7 +30,7 @@ __Position__:
 * Full time job availabe from 1st January 2012
 * Location: Allées de Tourny, Bordeaux, France
 * Earning will depend of the experience, and we are aware than having a good salary is also a good motivation for a good work.
-* But seriously, expect earning at least 2000€ (tax deducted)
+* But seriously, expect earning at least 2000€ per month (tax deducted)
 * Teleworking is feasible, with some roundtrips to the agency
 
 __Interested and/or experienced in these technos__:
