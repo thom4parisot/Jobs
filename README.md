@@ -13,6 +13,8 @@ Therefore, **we deliver analysis, recommendations and insights** through both **
 The mission of the techy guys is to build *ergonomic tools*, *bridges* (aka *webservices*) and *semantic data stores*.
 The fun part is that we can **help improving all the processes**, and even **bring new commercial features**!
 
+*Notice*: and yes, we will have to build a fresh website with our new graphical identity provided by [QSLD](http://www.qsld.com/) – the guys who redesigned [Veuve Clicquot champaign](http://www.veuve-clicquot.com/) and other fine spirits.
+
 ## Job profiles
 
 Some job profiles are listed below.
