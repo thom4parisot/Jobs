@@ -53,5 +53,5 @@ __Required skills__:
 * responsible
 * upstanding
 * autonomous
-* trustful
+* trustworthy
 * enjoying and making his job better every day
