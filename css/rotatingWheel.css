@@ -1,0 +1,9 @@
+.wheel:hover{
+    -moz-transform: rotate(360deg);
+    -moz-transition: all 7s linear 0s;
+}
+
+.wheel{
+    -moz-transform: rotate(0deg);
+    -moz-transition: all 2.5s ease-in 0.5s;
+}
