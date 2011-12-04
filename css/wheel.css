@@ -8,20 +8,44 @@ menu{
     .wheel{
         position: relative;
         display: inline-block;
-        background-color: hsla(123, 70%, 30%, 1);
+        background-color: white;
         
         width: 200px;
         height: 200px;
         
         border-radius: 50%;
         
-        border: 3px solid white;
+        /*border: 3px solid white;*/
         
         padding: 0;
         margin: 40px;
     }
     
-    .wheel:nth-of-type(1){ }
+    .wheel:nth-of-type(1){
+    /*
+    left: 200 -> 157
+    
+    145
+    90
+    104
+    118
+    
+    */
+    
+    }
+    .wheel:nth-of-type(2){
+        /*
+    top: 90 -> 178
+    
+    179
+    111
+    88
+    238
+    
+    */
+    
+    
+    }
 
         .wheel > span{
             width: 100%;
@@ -63,9 +87,14 @@ menu{
                 ** http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/ 
                 */
                 background: 
-                    -moz-radial-gradient(100% 100%, circle, transparent 100px, hsla(35, 70%, 30%, 0.5) 15px);
+                    -moz-radial-gradient(100% 100%, circle, transparent 100px, rgb(145,145,145) 15px);
                 background-position: bottom right;
             }
+            
+            /*.wheel:nth-of-type(1) > menu > li:nth-of-type(1){
+                background-color: rgb(145,145,145);
+            
+            }*/
             
                 .wheel > menu > li > span{
                     display:block;
@@ -76,7 +105,7 @@ menu{
             
             .wheel > menu > li:nth-of-type(1){
                 top: -50px;
-                left:-50px;
+                left:-50px; 
             }            
             
             .wheel > menu > li:nth-of-type(2){
