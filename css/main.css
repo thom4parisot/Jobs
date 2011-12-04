@@ -1,0 +1,58 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0 15%;
+    background-color: #FFFBD4;
+}
+
+h1{
+    text-align: center;
+    padding: 8px 0;
+    margin: 0;
+    font-size: 200%;
+}
+
+section{
+    background-color: rgba(50,50,50, 0.07);
+    padding: 10px 15px;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+
+    section h1{
+        text-align: left;
+        text-indent: 5em;
+        padding: 7px 0;
+        font-size: 150%;
+    }
+
+        section section h1{
+            text-indent: 3em;
+            padding: 5px 0;
+            font-size: 120%;
+        }
+
+    section p{
+        text-indent: 2em;
+        text-align: justify;
+        line-height: 1.5em;
+        
+        margin: 0.5em 0;
+    }
+
+    section ul, section ol{
+        list-style: none inside;
+        margin: 4px 0;
+        margin-left: 3em;
+        
+    }
+    
+    section li{
+        list-style: none inside;
+        margin-left: 1em;
+        padding: 3px 0;
+    }
+

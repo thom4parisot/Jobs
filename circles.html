@@ -3,190 +3,17 @@
   <head>
     <meta charset="utf-8">
 
-    <style>
-    body{
-        padding: 0 12%;
-        background-color : #FFFBD4;
-    }
-    
-    h2, h3{
-        color:red;
-        text-decoration: underline;
-    }
-    
-    h1{
-        text-align: center;
-        padding: 8px 0;
-    }
-    
-    section{
-        background-color: rgba(0,0,0, 0.07);
-        padding :  10px;
-        margin : 5px 7px;
-        border-radius: 5px;
-    }
-    
-        section h1{
-            text-align: left;
-            text-indent: 5em;
-            padding: 7px 0;
-        }
-    
-        section section h1{
-            text-indent: 3em;
-            padding: 5px 0;
-        }
-    
-        section p{
-            text-indent: 2em;
-            text-align: justify;
-            line-height: 1.5em;
-        }
-    
-        section ul, section ol{
-            list-style: none inside;
-        }
-    
-    </style>
-
-    <style id="wheel">
-    *{
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    menu{
-        list-style-type: none;
-        
-        position: relative;
-        display:block;
-    }
-    
-    menu#main{
-        top: 100px;
-        left: 50%;   
-    }
-    
-        .wheel{
-            position: relative;
-            display: block;
-            background-color: hsla(123, 70%, 30%, 1);
-            
-            width: 200px;
-            height: 200px;
-            
-            border-radius: 50%;
-            
-            border: 3px solid black;
-        }
-        
-        .wheel:nth-of-type(1){ }
-    
-            .wheel > span{
-                width: 100%;
-                height: 100%;
-            
-                display: -webkit-box;
-                display: -moz-box;
-                display: box;
-                
-                -webkit-box-align: center;
-                -moz-box-align: center;
-                box-align: center;
-                
-                -webkit-box-pack: center;
-                -moz-box-pack: center;
-                box-pack: center;
-            }
-        
-            .wheel > menu{
-                position:absolute;
-                top:0;
-                left:0;
-            }
-    
-                .wheel > menu > li{
-                    position: absolute;
-                    display:block;
-                    
-                    width: 150px;
-                    height: 150px;
-
-                    border-top-left-radius: 100%;
-                    
-                    /**
-                    ** Thanks @leaverou !
-                    ** http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/ 
-                    */
-                    background: 
-                        -moz-radial-gradient(100% 100%, circle, transparent 100px, hsla(35, 70%, 30%, 0.5) 15px);
-                    background-position: bottom right;
-                }
-                
-                    .wheel > menu > li > span{
-                        display:block;
-                        text-align: center;
-                        -moz-transform: translate(-15px, 60px) rotate(-45deg);
-                    }
-                
-                
-                .wheel > menu > li:nth-of-type(1){
-                    top: -50px;
-                    left:-50px;
-
-                }            
-                
-                .wheel > menu > li:nth-of-type(2){
-                    top: -50px;
-                    left: 100px;
-                    -moz-transform: rotate(90deg);
-                }
-        
-                .wheel > menu > li:nth-of-type(3){
-                    top: 100px;
-                    left:-50px;
-                    -moz-transform: rotate(-90deg);
-                }            
-                
-                .wheel > menu > li:nth-of-type(4){
-                    top: 100px;
-                    left:100px;
-                    -moz-transform: rotate(180deg);
-                }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/wheel.css">
 
 
     <title> Circles </title>    
   </head>
 
   <body>
-    
-    <!--
-      Education/Past experiences:
-      - Diplôme d'ingénieur ENSEIRB-MATMECA (informatique)
-      - One year at UCSD
-      - Recommerce solution (closed source)
-      - Composeo (project over before being released as open source)
-      
-      Formation JS @4SH
-      
-      MDN
-      
-      Outil de visualisation d'objets JS
-      Ludesik
-      
-      Other
-      - Speech
-      - Comments:
-      -- http://fr.techcrunch.com/2011/04/29/le-javascript-va-t-il-detroner-les-autres-langages-web/
-      -- http://naholyr.fr/2011/06/benchmark-node-js-methodes-synchrones-ou-asynchrones/
-      -- http://blogs.msdn.com/b/ie/archive/2011/07/01/web-workers-in-ie10-background-javascript-makes-web-apps-faster.aspx
-      
-    -->
-    
     <h1>David Bruant's application</h1>
     <section>
-        <h1>Big projects</h1>
+        <h1>Big achievements</h1>
         
         <section>
             <h1>Composeo</h1>
@@ -211,6 +38,7 @@
                 <li>URL design
                 <li>Data format design (JSON)
                 <li>User Interface design (Drag and Drop, etc.)
+                <li>Data model design
             </ul>
         </section>
         
@@ -219,7 +47,7 @@
             <p>During this internship I worked on the pricing technology (the one that tells
             you at which price your phone is collected at on
             <a href="http://www.monextel.com/">monextel.com</a>)</p>
-            <p>This experience included a lot of server-side work and writing some backoffice
+            <p>This experience included a lot of server-side work and writing backoffice
             interfaces.</p>
             
             <ul><strong>Technologies</strong>:
@@ -231,35 +59,35 @@
                 <li>SQL
             </ul>
             <ul><strong>Tasks</strong>:
+                <li>Data model design
                 <li>URL design
                 <li>Data format design (JSON)
             </ul>
         </section>
         
         <section>
-            <h1>(on going) a crawler</h1>
+            <h1>(on going project) A crawler</h1>
             <p>This project is not mature yet. It aims at writing a crawler (in JavaScript 
-            using Node.js) with the following features:
+            using Node.js) with the following features:</p>
             <ul>
                 <li>Target some informations in a web page
                 <li>Report broken URLs
                 <li>Report when an HTML document structure has changed
                 <li>Good HTTP support (GET, form submission emulation (POST+data), cookies...)
             </ul>
-            </p>
         </section>
     </section>
     
     <section>
-        <h1>Small projects</h1>
+        <h1>Small achievements</h1>
         <section>
             <h1>JavaScript company training</h1>
-            <p>I have given a 2-day JavaScript company training at
+            <p>I have given a 2-day JavaScript company training/workshop at
             <a href="http://www.4sh.fr/">4SH</a>. First day was dedicated to language basics
             following the plan in a 
             <a href="https://developer.mozilla.org/en/JavaScript_technologies_overview">documentation page I wrote earlier.</a>
-            The second day was dedicated to a code review of theor own code they had sent me
-            beforehand in the morning and to parctial exercices in the afternoon.
+            The second day was dedicated to a code review of their own code they had sent me
+            beforehand in the morning and to practial exercices in the afternoon.
             </p>
         </section>
     
@@ -269,18 +97,74 @@
             during the aforementionned company training, I wrote a
             <a href="http://davidbruant.github.com/ObjectViz/">little tool which
             visualizes objects</a> using <a href="http://raphaeljs.com/">Raphael.js</a>.
-            <a href="https://github.com/DavidBruant/ObjectViz/">Code is available on Github.</a></p>
+            <a href="https://github.com/DavidBruant/ObjectViz/">Code is available on Github</a>.</p>
+        </section>
+    
+        <section>
+            <h1>Ludesik</h1>
+            <p>Ludesik is a project I have been working on with friends of mine,
+            <a href="https://twitter.com/damienriccio">Damien Riccio</a> (architecture, code)
+            and <a href="https://twitter.com/epilepticrabbit">Laura Hilliger</a> (design).
+            The goal was to code an HTML/CSS/JavaScript equivalent to
+            <a href="http://www.earslap.com/projectslab/otomata">Otomata</a>.
+            <a href="https://github.com/driccio/Ludesik">Code is available on Github</a>. The project
+            is stable but still has a couple of bug. A working demo can be downloaded anyway from Github.</p>
+        </section>
+    
+        <section>
+            <h1>A wheel</h1>
+            <p>Just made for the purpose of this application. The goal was to reproduce one of the
+            wheels that can be found on <a href="http://www.dijiwan.com/accueil/">Dijiwan page</a>
+            in pure HTML and CSS. It uses recent technologies, so it is obviously not cross-browser.</p>
+           
+            <menu id="main">
+                <li class="wheel">
+                    <span>Web média</span>
+                    <menu>
+                        <li><span>Web TV</span>
+                        <li><span>SEO/SEM</span>
+                        <li><span>Web Ads</span>
+                        <li><span>E-mailing</span>
+                    </menu>
+                <li class="wheel">
+                    <span>Marketing Mobile</span>
+                    <menu>
+                        <li><span>Mobile Ads</span>
+                        <li><span>SMS</span>
+                        <li><span>Géolocalisation</span>
+                        <li><span>SEO/SEM</span>
+                    </menu>
+             </menu>
+            
         </section>
     </section>
 
     <section>
         <h1>Long term commitment</h1>
         <section>
-            <h1>Documentation</h1>
+            <h1>Open web technologies documentation</h1>
+            <p>For more than a year, I have been contributing to the documentation
+            on the Mozilla Developer Network, mostly on JavaScript.
+            </p>
+            <p>I have participated to every single "doc sprint" organised by Mozilla, from the
+            <a href="http://hacks.mozilla.org/2010/10/web-standards-doc-sprint-finis/">first one</a>
+            to the
+            <a href="http://hacks.mozilla.org/2011/10/jsconf-eu-doc-sprint-results/">latest in Berlin at JSConf.eu.</a>
+            </p>
+            <p>
+            
+            </p>
+            User page: https://developer.mozilla.org/User:dbruant
+            
+            
             <ul>
                 <li>Some good pages
                 <li>Hacks article with my face at JSconf.eu
             </ul>
+        </section>
+        
+        <section>
+            <h1>es-discuss & test262</h1>
         </section>
         
         <section>
@@ -290,45 +174,19 @@
         <section>
             <h1>Writing</h1>
             my blog
+            - http://longtermlaziness.wordpress.com/
+            
             blog comments
+            http://fr.techcrunch.com/2011/04/29/le-javascript-va-t-il-detroner-les-autres-langages-web/
+      - - http://naholyr.fr/2011/06/benchmark-node-js-methodes-synchrones-ou-asynchrones/
+      - - http://blogs.msdn.com/b/ie/archive/2011/07/01/web-workers-in-ie10-background-javascript-makes-web-apps-faster.aspx
+            
         </section>
     </section>
             
             
     
-    <menu id="main">
-        <li class="wheel">
-            <span>Marketing Mobile</span>
-            <menu>
-                <li><span>Mobile Ads</span>
-                <li><span>SMS</span>
-                <li><span>Géolocalisation</span>
-                <li><span>SEO/SEM</span>
-            </menu>
-        <!--
-        <li class="wheel"><span>Marketing Mobile</span>
-            <menu>
-                <li>Mobile Ads
-                <li>
-                <li>
-                <li>
-            </menu>
-        <li class="wheel"><span>Marketing Mobile</span>
-            <menu>
-                <li>Mobile Ads
-                <li>
-                <li>
-                <li>
-            </menu>
-        <li class="wheel"><span>Marketing Mobile</span>
-            <menu>
-                <li>Mobile Ads
-                <li>
-                <li>
-                <li>
-            </menu>
-            -->
-    </menu>
+
 
 
   </body>
