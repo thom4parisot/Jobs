@@ -62,3 +62,13 @@ __Required skills__:
 * autonomous
 * trustworthy
 * enjoying and making his job better every day
+
+## My profile
+
+Hello, it s a funny recruitment :)
+I develop with python and php.
+I m freelance based in Montauban.
+I would appreciate to work with you.
+You can view more on oktz.org.
+
+Have a good day.
