@@ -24,7 +24,7 @@ Applying is simple: **create a pull request** showing who you are, what have you
 You can either push a *resume*, some *code* and even submodules to link towards your public projects.
 Ask your questions at the same time, or create an issue… it's up to you.
 
-We understand this public application may cause you a privacy issue. You can easily dig through commiters history to find out an email address or a contact form leading to us.
+We understand this public application may create some privacy concerns. You can easily dig through commiters history to find out an email address or a contact form leading to us.
 
 ### Experienced Web Developer
 
