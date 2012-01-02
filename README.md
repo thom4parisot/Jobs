@@ -6,14 +6,15 @@
 
 We help *companies*, *brands* and *public organizations* to better **understand their market**, **who** is talking about them, and **how**, through Web medias (websites, social networks, advertising, SEO etc.).
 
-Therefore, **we deliver analysis, recommendations and insights** through both **high quality maps** and **strategies**.
+Therefore, **we deliver analysis, recommendations and insights** through both **high quality data visualization** (via _maps_ and _profile charts_) and **state of the art strategies**.
 
 ## The Project
 
 The mission of the techy guys is to build *ergonomic tools*, *bridges* (aka *webservices*) and *semantic data stores*.
 The fun part is that we can **help improving all the processes**, and even **bring new commercial features**!
 
-*Notice*: and yes, we will have to build a fresh website with our new graphical identity provided by [QSLD](http://www.qsld.com/) – the guys who redesigned [Veuve Clicquot champaign](http://www.veuve-clicquot.com/) and other fine spirits.
+**We ship softwares for our own needs**, and to build online Web products for large screens, tablets and smartphones.
+Some keywords: scalability, dashboards, user interface, continuous integration and build systems.
 
 ## Job profiles
 
