@@ -24,6 +24,8 @@ Applying is simple: **create a pull request** showing who you are, what have you
 You can either push a *resume*, some *code* and even submodules to link towards your public projects.
 Ask your questions at the same time, or create an issue… it's up to you.
 
+We understand this public application may cause you a privacy issue. You can easily dig through commiters history to find out an email address or a contact form leading to us.
+
 ### Experienced Web Developer
 
 __Position__:
@@ -41,15 +43,15 @@ __Position__:
 __Interested and/or experienced in these technos__:
 
 * HTTP
-* Node.js
-* Python
-* PHP
+* Git (obviously and mandatory)
+* JavaScript/ECMAScript or Node.js
 * HTML5
-* JavaScript/ECMAScript
 * CSS3
+* Python or PHP
 * MongoDB
-* AMPQ/RabbitMQ
-* Git (obviously)
+* AMPQ/RabbitMQ (or those kind of messenging systems)
+* Jenkins or Travis CI
+* Puppet or any lightweight configuration and build system
 
 __Required skills__:
 
