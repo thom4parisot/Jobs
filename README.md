@@ -18,47 +18,19 @@ Some keywords: scalability, dashboards, user interface, continuous integration a
 
 ## Job profiles
 
-Some job profiles are listed below.
+Some job profiles are listed in this folder.
 
-Applying is simple: **create a pull request** showing who you are, what have you **done** and what are you **expecting**.
+Applying is simple:
+
+* fork this repository;
+* create a folder in the `Applications` directory;
+* populate it with stuff: **code**, **resume** or anything related to what have you **done** and what are you **expecting**;
+* **pull a request** and wait for an answer!
+
+
 You can either push a *resume*, some *code* and even submodules to link towards your public projects.
 Ask your questions at the same time, or create an issue… it's up to you.
 
 We understand this public application may create some privacy concerns. You can easily dig through commiters history to find out an email address or a contact form leading to us.
 
 ### Experienced Web Developer
-
-__Position__:
-
-* Full time job available right now – _two seats available_
-* Location: Allées de Tourny, Bordeaux, France
-* Earning will depend of the experience, and we are aware than having a good salary is also a good motivation for a good work
-* But seriously, expect earning at least 2000€ per month (tax deducted)
-* We provide the hardware which corresponds the best to you + a 23" _external screen_:
- * [13" MacBook Pro](http://store.apple.com/fr/browse/home/shop_mac/family/macbook_pro) or,
- * [13" Macbook Air](http://store.apple.com/fr/browse/home/shop_mac/family/macbook_air) or,
- * [15" Latitude E6520](http://www.dell.com/fr/entreprise/p/latitude-e6520/fs) with 128GB hard-drive.
-* Teleworking is feasible, with some roundtrips to the agency
-
-__Interested and/or experienced in these technos__:
-
-* HTTP
-* Git (obviously and mandatory)
-* JavaScript/ECMAScript or Node.js
-* HTML5
-* CSS3
-* Python or PHP
-* MongoDB
-* AMPQ/RabbitMQ (or those kind of messenging systems)
-* Jenkins or Travis CI
-* Puppet or any lightweight configuration and build system
-
-__Required skills__:
-
-* good Web knowledge
-* team talkative
-* responsible
-* upstanding
-* autonomous
-* trustworthy
-* enjoying and making his job better every day
